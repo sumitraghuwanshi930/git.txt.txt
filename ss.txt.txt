@@ -1,0 +1,73 @@
+html>
+
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body bgcolor=" pink">
+    <h2>Student Registration Form</h2><br>
+    <p>Please Read Carefully Otherwise Your Data Doesn't Submit Successfully-</p>
+    <hr>
+    <br>
+    <br />
+    <form>
+        <label>First Name :</label>
+        <input type="text" id="First Name" />
+        <br>
+        <br>
+        <label>Middle Name :</label>
+        <input type="text" id="Middle Name" />
+        <br />
+        <br />
+        <label>Last Name :</label>
+        <input type="Text" id="Last Name" />
+        <br />
+        <br />
+        <label>DOB</label>
+        <input type="date" />
+        <br>
+        <br>
+        <label>Course :</label>
+        <select>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>GTA</option>
+            <option>B.TECH</option>
+            <option>M.TECH</option>
+            <option>MBA</option>
+        </select>
+        <br />
+        <br />
+        <label>Gender :</label>
+        <input type="radio" name="male" />male
+        <input type="radio" name="Female" />Female
+        <input type="radio" name="Other" />Other
+        <br />
+        <br />
+        <label>Phone No. :</label>
+        <input type="text" name="country code" value="+91" size="2" />
+        <input type="number" name="Phone No." />
+        <br />
+        <br />
+        Address :
+        <br />
+        <textarea cols="80" rows"5" value="address"></textarea>
+        <br />
+        <br />
+        Email :
+        <input type="text" id="Email" />
+        <br>
+        <br>
+        Password :
+        <input type="text" id="password" />
+        <br>
+        <br>
+        Re-type Password :
+        <input type="text" />
+        <br>
+        <br>
+        <input type="button" value="Submit" />
+    </form>
+</body>
+
+</html>
